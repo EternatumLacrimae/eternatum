@@ -81,4 +81,8 @@ li {
 	.menu {
 		flex-direction: column;
 	}
+
+span {
+color: darkred;
 }
+	
