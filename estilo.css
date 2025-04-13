@@ -1,0 +1,61 @@
+body {
+	background-color: darksalmon;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px; height: 450px;
+}
+
+p {
+	text-align: left;
+}
+
+li {
+	font-family: ;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.menu {
+	padding: 5px;
+	font-family: sans-serif;
+	color: darkred;
+	font-weight: bold;
+}
+
+.banner {
+	margin: 10px;
+	width: 900px; height: 450px;
+	border: inset indianred 5px;
+}
+
+.link {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 4px;
+  background-color: indianred;
+  color: beige;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.link:hover {
+  background-color: darkred;
+}
+
+.conteudo {
+	padding: 5px;
+	color: darkred;
+	font-size: 18px;
+}
+
+.fotocampanha {
+	width: 600px;
+	padding: 5px;
+	border: inset indianred 5px;
+}
+
+
+
