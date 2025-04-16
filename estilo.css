@@ -1,12 +1,8 @@
 /* CABEÇALHO */
 #cabecalho {
-    border: 2px solid #F3BE58;
-    border-radius: 3px;
-    background: #F3BE58;
-    max-width: 100%;
-    height: auto;
-    padding: 10px;
-    box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Espaço entre imagem e texto */
 }
 
 /* CONTAINER PRINCIPAL */
@@ -20,9 +16,8 @@
 
 /* ESCUDO */
 .foto-escudo {
-    width: 100px;
-    border-radius: 10px;
-    float: left;
+  width: 100px; /* Ajuste o tamanho conforme necessário */
+  height: auto;
 }
 
 /* MENU */
@@ -56,7 +51,12 @@
     padding: 10px;
     box-sizing: border-box;
 }
-
+.texto-cabecalho span {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  color: #003366; /* Cor escura como na imagem */
+}
 /* TEXTO NO TOPO */
 span {
     margin: 10px;
