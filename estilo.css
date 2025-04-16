@@ -1,0 +1,92 @@
+/* CABEÇALHO */
+#cabecalho {
+    border: 2px solid #F3BE58;
+    border-radius: 3px;
+    background: #F3BE58;
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* CONTAINER PRINCIPAL */
+.estrutura {
+    background: #f2e9d5;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+/* ESCUDO */
+.foto-escudo {
+    width: 100px;
+    border-radius: 10px;
+    float: left;
+}
+
+/* MENU */
+#menu {
+    text-align: center;
+    background-color: #F3BE58;
+    margin: 5px 0;
+    padding: 5px;
+}
+
+.menu-button {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* FOTO PRINCIPAL */
+.estilo-foto {
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* SEÇÃO COM A FOTO */
+.fundo-foto {
+    background-color: #F3BE58;
+    border-radius: 3px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* TEXTO NO TOPO */
+span {
+    margin: 10px;
+    border-radius: 100px;
+    color: #03395F;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px black;
+    font-size: 2em;
+    background-color: #F3BE58;
+    display: inline-block;
+}
+
+/* GERAL */
+body {
+    background-color: #f2e9d5;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    background-color: #F3BE58;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-shadow: 4px 4px 5px black;
+    transition: background-color 0.3s;
+}
+
+p {
+    margin: 20px;
+}
